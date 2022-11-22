@@ -230,9 +230,9 @@ if (isset($_POST["Common"])) {
 								}
 							  
 							echo   
-								'<input type="hidden" name="return" value="http://localhost/groupproject/payment_success.php"/>
-					                <input type="hidden" name="notify_url" value="http://localhost/groupproject/payment_success.php">
-									<input type="hidden" name="cancel_return" value="http://localhost/groupproject/cancel.php"/>
+								'<input type="hidden" name="return" value="https://ecommercegroupproject.herokuapp.com/payment_success.php"/>
+					                <input type="hidden" name="notify_url" value="https://ecommercegroupproject.herokuapp.com/payment_success.php">
+									
 									<input type="hidden" name="currency_code" value="USD"/>
 									<input type="hidden" name="custom" value="'.$_SESSION["uid"].'"/>
 									<input style="float:right;margin-right:80px;" type="image" name="submit"
