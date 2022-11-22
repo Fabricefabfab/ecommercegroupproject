@@ -257,7 +257,7 @@ if (isset($_POST["removeItemFromCart"])) {
 	if(mysqli_query($con,$sql)){
 		echo "<div class='alert alert-danger'>
 						<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-						<b>Service is removed from cart</b>
+						<b>Service is removed from the list</b>
 				</div>";
 		exit();
 	}
