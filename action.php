@@ -230,9 +230,9 @@ if (isset($_POST["Common"])) {
 								}
 							  
 							echo   
-								'<input type="hidden" name="return" value="http://localhost/project1/payment_success.php"/>
-					                <input type="hidden" name="notify_url" value="http://localhost/ecommerce-app-h/payment_success.php">
-									<input type="hidden" name="cancel_return" value="http://localhost/ecommerce-app-h/cancel.php"/>
+								'<input type="hidden" name="return" value="http://localhost/groupproject/payment_success.php"/>
+					                <input type="hidden" name="notify_url" value="http://localhost/groupproject/payment_success.php">
+									<input type="hidden" name="cancel_return" value="http://localhost/groupproject/cancel.php"/>
 									<input type="hidden" name="currency_code" value="USD"/>
 									<input type="hidden" name="custom" value="'.$_SESSION["uid"].'"/>
 									<input style="float:right;margin-right:80px;" type="image" name="submit"
@@ -257,7 +257,7 @@ if (isset($_POST["removeItemFromCart"])) {
 	if(mysqli_query($con,$sql)){
 		echo "<div class='alert alert-danger'>
 						<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-						<b>Product is removed from cart</b>
+						<b>Service is removed from cart</b>
 				</div>";
 		exit();
 	}

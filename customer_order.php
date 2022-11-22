@@ -27,7 +27,7 @@ if(!isset($_SESSION["uid"])){
 			</div>
 			<ul class="nav navbar-nav">
 				<li><a href="homepage.php"><span class="glyphicon glyphicon-home"></span>Home</a></li>
-				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Product</a></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-modal-window"></span>Service</a></li>
 			</ul>
 		</div>
 	</div>
