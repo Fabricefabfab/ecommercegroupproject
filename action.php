@@ -99,7 +99,7 @@ if(isset($_POST["getProduct"])){
 				echo "
 					<div class='alert alert-success'>
 						<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
-						<b>Your Service has been added to cart!</b>
+						<b>Your Service has been added to subscription!</b>
 					</div>
 				";
 				exit();
