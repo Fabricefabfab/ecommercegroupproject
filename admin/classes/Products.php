@@ -48,7 +48,7 @@ class Products
 			if ($file['size'] > (1024 * 2)) {
 				
 				$uniqueImageName = time()."_".$file['name'];
-				if (move_uploaded_file($file['tmp_name'], $_SERVER['DOCUMENT_ROOT']."/groupproject/product_images/".$uniqueImageName)) {
+				if (move_uploaded_file($file['tmp_name'], $_SERVER['DOCUMENT_ROOT']."/product_images/".$uniqueImageName)) {
 					
 					$q = $this->con->query("INSERT INTO `products`(`product_title`, `product_price`, `product_desc`, `product_image`, `product_keywords`) VALUES ( '$product_name', '$product_price', '$product_desc', '$uniqueImageName', '$product_keywords')");
 
@@ -94,7 +94,7 @@ class Products
 			if ($file['size'] > (1024 * 2)) {
 				
 				$uniqueImageName = time()."_".$file['name'];
-				if (move_uploaded_file($file['tmp_name'], $_SERVER['DOCUMENT_ROOT']."/groupproject/product_images/".$uniqueImageName)) {
+				if (move_uploaded_file($file['tmp_name'], $_SERVER['DOCUMENT_ROOT']."/product_images/".$uniqueImageName)) {
 					
 					$q = $this->con->query("UPDATE `products` SET 
 										`product_title` = '$product_name', 
