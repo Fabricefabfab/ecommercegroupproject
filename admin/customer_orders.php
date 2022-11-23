@@ -20,8 +20,8 @@
               <th>Order #</th>
               <th>Service Id</th>
               <th>Service Name</th>
-              <th>Quantity</th>
-              <th>Trx Id</th>
+              <th>Number of sessions</th>
+
               <th>Payment Status</th>
             </tr>
           </thead>
