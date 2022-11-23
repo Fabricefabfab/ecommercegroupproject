@@ -21,7 +21,7 @@
           <li class="nav-item">
             <a class="nav-link <?php echo ($page == 'customer_orders.php') ? 'active' : ''; ?>" href="customer_orders.php">
               <span data-feather="clipboard"></span>
-              Orders
+              Subscriptions
             </a>
           </li>
           <li class="nav-item">
